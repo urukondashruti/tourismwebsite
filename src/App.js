@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+import HolidayPackages from './HolidayPackages';
+import FlightBooking from './FlightBooking';
+import HotelBooking from './HotelBooking';
+import PackageCollections from './PackageCollections';
+import Home from "./Home";
+import Madurai from './Madurai';
+import Dwarka from './Dwarka';
+import Badrinath from './Badrinath';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div>
+                <Switch>
+                <Route exact path="/" component={Home} />
+                    <Route exact path="/packages" component={HolidayPackages} />
+                    <Route path="/flights" component={FlightBooking} />
+                    <Route path="/hotels" component={HotelBooking} />
+                    <Route path="/collections" component={PackageCollections} />
+                    <Route path="/madurai" component={Madurai} />
+                    <Route path="/Dwarka" component={Dwarka} />
+                    <Route path="/badrinath" component={Badrinath} />
+                </Switch>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

@@ -1,0 +1,98 @@
+.back{
+    margin-left:auto;
+}
+.navbar1{
+    display:flex;
+    flex-direction:row;
+    margin-left:auto;
+}
+.nav2{
+    margin-left:15px;
+}
+.img1{
+    width:90%;
+    height:550px;
+}
+.size1{
+    height:80px;
+    width:100px;
+}
+.back1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.background1{
+    background-color:black;
+    color:white;
+    padding:20px;
+}
+.back5{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.div10{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.img5{
+    height: 400px;
+    width: 300px;
+    border-radius:15px;
+    margin-right:10px;
+    margin-left:10px;
+}
+.con5{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+}
+.icons10{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.a1{
+    size:150px;
+    margin:10px;
+}
+.helpicon{
+    margin-top:5px;
+    margin-right:10px;
+}
+
+@media screen and (max-width: 768px) {
+    .img5{
+        height: 200px;
+        width: 100px;
+        border-radius:15px;
+        margin-right:5px;
+        margin-left:5px;
+    }
+    .head1{
+        font-size:20px;
+    }
+  }
+  
+  /* CSS styles for mobile devices */
+  @media screen and (max-width: 576px) {
+    .img5{
+        height: 150px;
+        width: 50px;
+        border-radius:15px;
+        margin-right:5px;
+        margin-left:5px;
+    }
+    .head1{
+        font-size:10px;
+    }
+  }

@@ -1,0 +1,30 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    width:1400px;
+  }
+  @media screen and (max-width: 768px) {
+    .background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+        width:700px;
+      }
+  }
+  
+  /* CSS styles for mobile devices */
+  @media screen and (max-width: 576px) {
+    .background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        text-align: center;
+        width:500px;
+      }
+  }

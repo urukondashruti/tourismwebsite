@@ -1,0 +1,15 @@
+.background3{
+    background-color:black;
+    background-size:cover;
+    color:white;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   padding:50px;
+}
+
+.size5{
+    width:800px;
+    height:400px;
+}
